@@ -11025,57 +11025,57 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <parts>
 <part name="IC1" library="no_expressif" deviceset="ESP12" device="F"/>
 <part name="Q1" library="no_reichelt" deviceset="8205A" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0.4"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.74k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.74k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100"/>
 <part name="IC3" library="no_reichelt" deviceset="TP4056" device=""/>
 <part name="IC4" library="no_reichelt" deviceset="DW01A" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10µF"/>
 <part name="S1" library="no_reichelt" deviceset="SSSS820101" device=""/>
 <part name="VR1" library="no_reichelt" deviceset="MCP170" device="0-3302"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J1" library="no_reichelt" deviceset="10118194-0001LF" device="" package3d_urn="urn:adsk.eagle:package:19610273/8"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.7M"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="590k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.7M"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="590k"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TPB+" library="no_pinhd" deviceset="PINHD_1X01" device="_S_0.8"/>
 <part name="TPB-" library="no_pinhd" deviceset="PINHD_1X01" device="_S_0.8"/>
 <part name="BT1" library="no_reichelt" deviceset="HA_18650_EK" device="_18650"/>
 <part name="JP1" library="no_pinhd" deviceset="PINHD_1X04" device="_R_1"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="OrangeRed"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="JP2" library="no_pinhd" deviceset="PINHD_1X03" device="_R_1"/>
 <part name="R" library="no_reichelt" deviceset="KMR_231_G_LFS" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.9k"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.9k"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.9k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.9k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="UPDI" library="no_pinhd" deviceset="PINHD_1X03" device="_R_1"/>
 <part name="J2" library="no_molex" deviceset="NAHS-BRICK-INTERFACE" device="_B-SIDE" value="Brick-Interface"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="IC2" library="no_microchip" deviceset="ATTINY212" device="-SSNR"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="510"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -11091,7 +11091,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <attribute name="NAME" x="167.64" y="33.02" size="1.778" layer="95" align="top-left"/>
 <attribute name="VALUE" x="167.64" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="5.08" y="142.24" smashed="yes" grouprefs="BAT_CHARGING">
+<instance part="C4" gate="G$1" x="5.08" y="142.24" smashed="yes" grouprefs="BAT_CHARGING">
 <attribute name="NAME" x="6.604" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="5.715" y="139.192" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -11099,7 +11099,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <attribute name="NAME" x="3.5814" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="8.382" y="156.21" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="60.96" y="134.62" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
+<instance part="R9" gate="G$1" x="60.96" y="134.62" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
 <attribute name="NAME" x="59.4614" y="130.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="64.262" y="130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -11115,15 +11115,15 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <attribute name="NAME" x="137.16" y="33.02" size="1.27" layer="95" align="top-left"/>
 <attribute name="VALUE" x="137.16" y="12.7" size="1.27" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="121.92" y="20.32" smashed="yes" grouprefs="BAT_PROTECTION">
+<instance part="C1" gate="G$1" x="121.92" y="20.32" smashed="yes" grouprefs="BAT_PROTECTION">
 <attribute name="NAME" x="123.444" y="20.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="122.555" y="17.272" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="129.54" y="15.24" smashed="yes" rot="R90" grouprefs="BAT_PROTECTION">
+<instance part="R6" gate="G$1" x="129.54" y="15.24" smashed="yes" rot="R90" grouprefs="BAT_PROTECTION">
 <attribute name="NAME" x="128.0414" y="11.43" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.842" y="11.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C7" gate="G$1" x="111.76" y="27.94" smashed="yes" grouprefs="BAT_PROTECTION">
+<instance part="C5" gate="G$1" x="111.76" y="27.94" smashed="yes" grouprefs="BAT_PROTECTION">
 <attribute name="NAME" x="113.284" y="28.321" size="1.778" layer="95"/>
 <attribute name="VALUE" x="112.395" y="24.892" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -11144,11 +11144,11 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <instance part="+3V1" gate="G$1" x="142.24" y="154.94" smashed="yes" grouprefs="VOLTAGEREGULATION">
 <attribute name="VALUE" x="139.7" y="149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="116.84" y="142.24" smashed="yes" grouprefs="VOLTAGEREGULATION">
+<instance part="C2" gate="G$1" x="116.84" y="142.24" smashed="yes" grouprefs="VOLTAGEREGULATION">
 <attribute name="NAME" x="118.364" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="117.348" y="137.795" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="142.24" y="142.24" smashed="yes" grouprefs="VOLTAGEREGULATION">
+<instance part="C3" gate="G$1" x="142.24" y="142.24" smashed="yes" grouprefs="VOLTAGEREGULATION">
 <attribute name="NAME" x="143.764" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.748" y="137.795" size="1.778" layer="96"/>
 </instance>
@@ -11158,15 +11158,15 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <instance part="+3V2" gate="G$1" x="7.62" y="101.6" smashed="yes" grouprefs="MAINIC">
 <attribute name="VALUE" x="5.08" y="96.52" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="96.52" y="106.68" smashed="yes" grouprefs="MAINIC">
+<instance part="R12" gate="G$1" x="96.52" y="106.68" smashed="yes" grouprefs="MAINIC">
 <attribute name="NAME" x="92.71" y="108.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="103.378" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="96.52" y="99.06" smashed="yes" grouprefs="MAINIC">
+<instance part="R13" gate="G$1" x="96.52" y="99.06" smashed="yes" grouprefs="MAINIC">
 <attribute name="NAME" x="92.71" y="100.5586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="95.758" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="96.52" y="91.44" smashed="yes" grouprefs="MAINIC">
+<instance part="R14" gate="G$1" x="96.52" y="91.44" smashed="yes" grouprefs="MAINIC">
 <attribute name="NAME" x="92.71" y="92.9386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="88.138" size="1.778" layer="96"/>
 </instance>
@@ -11180,11 +11180,11 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <attribute name="NAME" x="68.317140625" y="41.4201" size="1.272109375" layer="95"/>
 <attribute name="VALUE" x="68.57613125" y="17.7703" size="1.27096875" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="205.74" y="78.74" smashed="yes" grouprefs="TESTPOINTS">
+<instance part="R17" gate="G$1" x="205.74" y="78.74" smashed="yes" grouprefs="TESTPOINTS">
 <attribute name="NAME" x="201.93" y="80.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="75.438" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="220.98" y="78.74" smashed="yes" grouprefs="TESTPOINTS">
+<instance part="R16" gate="G$1" x="220.98" y="78.74" smashed="yes" grouprefs="TESTPOINTS">
 <attribute name="NAME" x="217.17" y="80.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="75.438" size="1.778" layer="96"/>
 </instance>
@@ -11217,7 +11217,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <attribute name="NAME" x="35.052" y="166.116" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="35.052" y="168.275" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="43.18" y="162.56" smashed="yes" grouprefs="BAT_CHARGING">
+<instance part="R7" gate="G$1" x="43.18" y="162.56" smashed="yes" grouprefs="BAT_CHARGING">
 <attribute name="NAME" x="39.37" y="164.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="159.258" size="1.778" layer="96"/>
 </instance>
@@ -11240,15 +11240,15 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <instance part="+3V4" gate="G$1" x="134.62" y="111.76" smashed="yes" grouprefs="IO_EXPANDER">
 <attribute name="VALUE" x="132.08" y="106.68" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R7" gate="G$1" x="142.24" y="104.14" smashed="yes" grouprefs="IO_EXPANDER">
+<instance part="R10" gate="G$1" x="142.24" y="104.14" smashed="yes" grouprefs="IO_EXPANDER">
 <attribute name="NAME" x="138.43" y="105.6386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="100.838" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="142.24" y="96.52" smashed="yes" grouprefs="IO_EXPANDER">
+<instance part="R11" gate="G$1" x="142.24" y="96.52" smashed="yes" grouprefs="IO_EXPANDER">
 <attribute name="NAME" x="138.43" y="98.0186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="93.218" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="68.58" y="73.66" smashed="yes" grouprefs="MAINIC">
+<instance part="R8" gate="G$1" x="68.58" y="73.66" smashed="yes" grouprefs="MAINIC">
 <attribute name="NAME" x="64.77" y="75.1586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.77" y="70.358" size="1.778" layer="96"/>
 </instance>
@@ -11268,7 +11268,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <instance part="+3V5" gate="G$1" x="48.26" y="45.72" smashed="yes" grouprefs="USB_CONNECTION">
 <attribute name="VALUE" x="45.72" y="40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="12.7" y="147.32" smashed="yes" grouprefs="BAT_CHARGING">
+<instance part="R15" gate="G$1" x="12.7" y="147.32" smashed="yes" grouprefs="BAT_CHARGING">
 <attribute name="NAME" x="8.89" y="148.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.89" y="144.018" size="1.778" layer="96"/>
 </instance>
@@ -11288,15 +11288,15 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <attribute name="NAME" x="233.172" y="13.716" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="233.172" y="15.875" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R15" gate="G$1" x="218.44" y="30.48" smashed="yes" grouprefs="SIGNAL_OUT">
+<instance part="R3" gate="G$1" x="218.44" y="30.48" smashed="yes" grouprefs="SIGNAL_OUT">
 <attribute name="NAME" x="214.63" y="31.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="27.178" size="1.778" layer="96"/>
 </instance>
-<instance part="R16" gate="G$1" x="218.44" y="20.32" smashed="yes" grouprefs="SIGNAL_OUT">
+<instance part="R4" gate="G$1" x="218.44" y="20.32" smashed="yes" grouprefs="SIGNAL_OUT">
 <attribute name="NAME" x="214.63" y="21.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="17.018" size="1.778" layer="96"/>
 </instance>
-<instance part="R17" gate="G$1" x="218.44" y="10.16" smashed="yes" grouprefs="SIGNAL_OUT">
+<instance part="R5" gate="G$1" x="218.44" y="10.16" smashed="yes" grouprefs="SIGNAL_OUT">
 <attribute name="NAME" x="214.63" y="11.6586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="6.858" size="1.778" layer="96"/>
 </instance>
@@ -11310,7 +11310,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
 <wire x1="5.08" y1="144.78" x2="5.08" y2="147.32" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <wire x1="5.08" y1="147.32" x2="5.08" y2="152.4" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
@@ -11322,7 +11322,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <wire x1="27.94" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <wire x1="17.78" y1="162.56" x2="17.78" y2="152.4" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <junction x="17.78" y="152.4" grouprefs="BAT_CHARGING"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="147.32" x2="5.08" y2="147.32" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <junction x="5.08" y="147.32" grouprefs="BAT_CHARGING"/>
 </segment>
@@ -11356,7 +11356,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 </net>
 <net name="IN-" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="137.16" x2="5.08" y2="127" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <label x="5.08" y="127" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
@@ -11365,7 +11365,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <wire x1="53.34" y1="137.16" x2="53.34" y2="127" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <label x="53.34" y="127" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
 <wire x1="53.34" y1="127" x2="60.96" y2="127" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="127" x2="60.96" y2="129.54" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
@@ -11375,10 +11375,10 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="160.02" y="17.78" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="BAT_PROTECTION"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="15.24" x2="121.92" y2="10.16" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <label x="121.92" y="7.62" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="BAT_PROTECTION"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="10.16" x2="121.92" y2="7.62" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <wire x1="111.76" y1="22.86" x2="111.76" y2="10.16" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <wire x1="111.76" y1="10.16" x2="121.92" y2="10.16" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
@@ -11417,7 +11417,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="139.7" x2="60.96" y2="142.24" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <pinref part="IC3" gate="G$1" pin="PROG"/>
 <wire x1="60.96" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
@@ -11435,7 +11435,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="121.92" y="43.18" size="1.778" layer="95" xref="yes" grouprefs="BAT_PROTECTION"/>
 <wire x1="121.92" y1="40.64" x2="111.76" y2="40.64" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <junction x="121.92" y="40.64" grouprefs="BAT_PROTECTION"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="40.64" x2="111.76" y2="30.48" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 </segment>
 <segment>
@@ -11453,7 +11453,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <segment>
 <pinref part="IC4" gate="G$1" pin="CS"/>
 <wire x1="132.08" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="22.86" x2="129.54" y2="20.32" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 </segment>
 </net>
@@ -11463,7 +11463,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <pinref part="IC4" gate="G$1" pin="VCC"/>
 <wire x1="121.92" y1="30.48" x2="121.92" y2="27.94" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <wire x1="121.92" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="22.86" x2="121.92" y2="27.94" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <junction x="121.92" y="27.94" grouprefs="BAT_PROTECTION"/>
 </segment>
@@ -11503,7 +11503,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="190.5" y="15.24" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="BAT_PROTECTION"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="10.16" x2="129.54" y2="7.62" width="0.1524" layer="91" grouprefs="BAT_PROTECTION"/>
 <label x="129.54" y="7.62" size="1.778" layer="95" xref="yes" grouprefs="BAT_PROTECTION"/>
 </segment>
@@ -11523,12 +11523,12 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <pinref part="VR1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="129.54" y1="139.7" x2="129.54" y2="134.62" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="132.08" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <wire x1="116.84" y1="137.16" x2="116.84" y2="134.62" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <wire x1="116.84" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <junction x="129.54" y="134.62" grouprefs="VOLTAGEREGULATION"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="137.16" x2="142.24" y2="134.62" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <wire x1="142.24" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 </segment>
@@ -11539,7 +11539,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <wire x1="7.62" y1="93.98" x2="7.62" y2="91.44" width="0.1524" layer="91" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="88.9" y1="91.44" x2="88.9" y2="68.58" width="0.1524" layer="91" grouprefs="MAINIC"/>
@@ -11551,7 +11551,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <wire x1="93.98" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91" grouprefs="TESTPOINTS"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="228.6" y1="78.74" x2="228.6" y2="76.2" width="0.1524" layer="91" grouprefs="TESTPOINTS"/>
@@ -11588,14 +11588,14 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <pinref part="S1" gate="G$1" pin="5"/>
 <pinref part="VR1" gate="G$1" pin="IN"/>
 <wire x1="101.6" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <wire x1="116.84" y1="144.78" x2="116.84" y2="147.32" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <junction x="116.84" y="147.32" grouprefs="VOLTAGEREGULATION"/>
 <label x="116.84" y="147.32" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="VOLTAGEREGULATION"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91" grouprefs="TESTPOINTS"/>
 <label x="195.58" y="78.74" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="TESTPOINTS"/>
 <pinref part="TPB+" gate="_1" pin="1"/>
@@ -11607,7 +11607,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="152.4" x2="142.24" y2="147.32" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
 <pinref part="VR1" gate="G$1" pin="OUT"/>
 <wire x1="142.24" y1="147.32" x2="142.24" y2="144.78" width="0.1524" layer="91" grouprefs="VOLTAGEREGULATION"/>
@@ -11621,11 +11621,11 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <wire x1="7.62" y1="96.52" x2="7.62" y2="99.06" width="0.1524" layer="91" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="88.9" y1="99.06" x2="88.9" y2="106.68" width="0.1524" layer="91" grouprefs="MAINIC"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="106.68" x2="88.9" y2="109.22" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <wire x1="91.44" y1="106.68" x2="88.9" y2="106.68" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <junction x="88.9" y="106.68" grouprefs="MAINIC"/>
@@ -11636,10 +11636,10 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <wire x1="134.62" y1="104.14" x2="134.62" y2="96.52" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
 <wire x1="134.62" y1="96.52" x2="134.62" y2="86.36" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
 <wire x1="134.62" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
 <junction x="134.62" y="96.52" grouprefs="IO_EXPANDER"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
 <junction x="134.62" y="104.14" grouprefs="IO_EXPANDER"/>
 <pinref part="UPDI" gate="_1" pin="1"/>
@@ -11666,7 +11666,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="106.68" y="68.58" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <label x="76.2" y="73.66" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
@@ -11678,7 +11678,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="63.5" y="101.6" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <label x="104.14" y="99.06" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
@@ -11690,7 +11690,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="63.5" y="81.28" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <label x="104.14" y="91.44" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
@@ -11702,7 +11702,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="27.94" y="101.6" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91" grouprefs="MAINIC"/>
 <label x="104.14" y="106.68" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
@@ -11789,9 +11789,9 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="22.86" y="99.06" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <label x="213.36" y="78.74" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="TESTPOINTS"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91" grouprefs="TESTPOINTS"/>
 </segment>
 </net>
@@ -11815,7 +11815,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="162.56" x2="38.1" y2="162.56" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 </segment>
 </net>
@@ -11826,7 +11826,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="68.58" y="88.9" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <label x="50.8" y="162.56" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
@@ -11855,7 +11855,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="71.12" y="99.06" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
 <label x="149.86" y="104.14" size="1.778" layer="95" xref="yes" grouprefs="IO_EXPANDER"/>
 </segment>
@@ -11872,7 +11872,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="66.04" y="96.52" size="1.778" layer="95" xref="yes" grouprefs="MAINIC"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91" grouprefs="IO_EXPANDER"/>
 <label x="149.86" y="96.52" size="1.778" layer="95" xref="yes" grouprefs="IO_EXPANDER"/>
 </segment>
@@ -11886,7 +11886,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="D0"/>
 <wire x1="60.96" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91" grouprefs="MAINIC"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="78.74" x2="63.5" y2="73.66" width="0.1524" layer="91" grouprefs="MAINIC"/>
 </segment>
 </net>
@@ -11907,7 +11907,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 </net>
 <net name="CD" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="CE"/>
 <wire x1="17.78" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <label x="20.32" y="147.32" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="BAT_CHARGING"/>
@@ -11925,7 +11925,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="170.18" y="76.2" size="1.778" layer="95" xref="yes" grouprefs="IO_EXPANDER"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="30.48" x2="210.82" y2="30.48" width="0.1524" layer="91" grouprefs="SIGNAL_OUT"/>
 <label x="210.82" y="30.48" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SIGNAL_OUT"/>
 </segment>
@@ -11937,7 +11937,7 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="170.18" y="71.12" size="1.778" layer="95" xref="yes" grouprefs="IO_EXPANDER"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91" grouprefs="SIGNAL_OUT"/>
 <label x="210.82" y="20.32" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SIGNAL_OUT"/>
 </segment>
@@ -11949,14 +11949,14 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <label x="170.18" y="66.04" size="1.778" layer="95" xref="yes" grouprefs="IO_EXPANDER"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="10.16" x2="210.82" y2="10.16" width="0.1524" layer="91" grouprefs="SIGNAL_OUT"/>
 <label x="210.82" y="10.16" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SIGNAL_OUT"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="30.48" x2="226.06" y2="30.48" width="0.1524" layer="91" grouprefs="SIGNAL_OUT"/>
 </segment>
@@ -11964,13 +11964,13 @@ I-SIDE Variant ist der Verbinder auf Interface-Seite</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="20.32" x2="223.52" y2="20.32" width="0.1524" layer="91" grouprefs="SIGNAL_OUT"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="10.16" x2="226.06" y2="10.16" width="0.1524" layer="91" grouprefs="SIGNAL_OUT"/>
 </segment>
