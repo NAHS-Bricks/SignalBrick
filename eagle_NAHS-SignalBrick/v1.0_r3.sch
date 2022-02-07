@@ -11140,6 +11140,7 @@ Source: www.kingbright.com</description>
 <part name="SJ1" library="no_pinhd" deviceset="SOLDERJUMPER" device="" value="S0"/>
 <part name="SJ2" library="no_pinhd" deviceset="SOLDERJUMPER" device="" value="S1"/>
 <part name="SJ3" library="no_pinhd" deviceset="SOLDERJUMPER" device="" value="S2"/>
+<part name="SJ4" library="no_pinhd" deviceset="SOLDERJUMPER" device="" value="DisableCharging"/>
 </parts>
 <sheets>
 <sheet>
@@ -11154,25 +11155,25 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="167.64" y="33.02" size="1.778" layer="95" align="top-left"/>
 <attribute name="VALUE" x="167.64" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="198.12" y="73.66" smashed="yes" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="199.644" y="74.041" size="1.778" layer="95"/>
-<attribute name="VALUE" x="198.755" y="70.612" size="1.778" layer="96" rot="R270"/>
+<instance part="C5" gate="G$1" x="198.12" y="78.74" smashed="yes" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="199.644" y="79.121" size="1.778" layer="95"/>
+<attribute name="VALUE" x="198.755" y="75.692" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R1" gate="G$1" x="198.12" y="91.44" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="196.6214" y="87.63" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="87.63" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="198.12" y="96.52" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="196.6214" y="92.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="201.422" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="254" y="66.04" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="252.5014" y="62.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="257.302" y="62.23" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="254" y="71.12" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="252.5014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="257.302" y="67.31" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="121.92" y="35.56" smashed="yes" rot="R90" grouprefs="BAT_PROTECTION">
 <attribute name="NAME" x="120.4214" y="31.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="125.222" y="31.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC3" gate="G$1" x="231.14" y="76.2" smashed="yes" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="220.98" y="88.9" size="1.778" layer="95" align="top-left"/>
-<attribute name="VALUE" x="220.98" y="63.5" size="1.778" layer="96"/>
+<instance part="IC3" gate="G$1" x="231.14" y="81.28" smashed="yes" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="220.98" y="93.98" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="220.98" y="68.58" size="1.778" layer="96"/>
 </instance>
 <instance part="IC4" gate="G$1" x="144.78" y="22.86" smashed="yes" grouprefs="BAT_PROTECTION">
 <attribute name="NAME" x="137.16" y="33.02" size="1.27" layer="95" align="top-left"/>
@@ -11276,13 +11277,13 @@ Source: www.kingbright.com</description>
 <instance part="JP1" gate="_4" x="78.74" y="10.16" smashed="yes" grouprefs="PROGRAMMING">
 <attribute name="NAME" x="81.915" y="10.16" size="1.27" layer="95" align="center-left"/>
 </instance>
-<instance part="LED1" gate="G$1" x="223.52" y="93.98" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="228.092" y="97.536" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.092" y="99.695" size="1.778" layer="96" rot="R180"/>
+<instance part="LED1" gate="G$1" x="223.52" y="99.06" smashed="yes" rot="R90" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="228.092" y="102.616" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="228.092" y="104.775" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R4" gate="G$1" x="236.22" y="93.98" smashed="yes" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="232.41" y="95.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.41" y="90.678" size="1.778" layer="96"/>
+<instance part="R4" gate="G$1" x="236.22" y="99.06" smashed="yes" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="232.41" y="100.5586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.41" y="95.758" size="1.778" layer="96"/>
 </instance>
 <instance part="JP2" gate="_1" x="99.06" y="81.28" smashed="yes" rot="R180" grouprefs="MAINIC">
 <attribute name="NAME" x="95.885" y="81.28" size="1.27" layer="95" rot="R180" align="center-left"/>
@@ -11324,9 +11325,9 @@ Source: www.kingbright.com</description>
 <instance part="UPDI" gate="_3" x="134.62" y="81.28" smashed="yes" rot="R180" grouprefs="IO_EXPANDER">
 <attribute name="NAME" x="131.445" y="81.28" size="1.27" layer="95" rot="R180" align="center-left"/>
 </instance>
-<instance part="R13" gate="G$1" x="205.74" y="78.74" smashed="yes" grouprefs="BAT_CHARGING">
-<attribute name="NAME" x="201.93" y="80.2386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.93" y="75.438" size="1.778" layer="96"/>
+<instance part="R13" gate="G$1" x="205.74" y="83.82" smashed="yes" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="201.93" y="85.3186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="201.93" y="80.518" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="G$1" x="154.94" y="76.2" smashed="yes" grouprefs="IO_EXPANDER">
 <attribute name="NAME" x="144.78" y="91.44" size="1.778" layer="95" align="top-left"/>
@@ -11378,6 +11379,10 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="220.98" y="129.54" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="220.98" y="134.62" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
+<instance part="SJ4" gate="G$1" x="215.9" y="60.96" smashed="yes" grouprefs="BAT_CHARGING">
+<attribute name="NAME" x="210.82" y="63.5" size="1.27" layer="95"/>
+<attribute name="VALUE" x="210.82" y="58.42" size="1.27" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11387,26 +11392,26 @@ Source: www.kingbright.com</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="76.2" x2="198.12" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<wire x1="198.12" y1="78.74" x2="198.12" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<wire x1="198.12" y1="83.82" x2="198.12" y2="86.36" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<wire x1="215.9" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<junction x="198.12" y="83.82" grouprefs="BAT_CHARGING"/>
-<wire x1="210.82" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="198.12" y1="81.28" x2="198.12" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="198.12" y1="83.82" x2="198.12" y2="88.9" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="198.12" y1="88.9" x2="198.12" y2="91.44" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="215.9" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<junction x="198.12" y="88.9" grouprefs="BAT_CHARGING"/>
+<wire x1="210.82" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="220.98" y1="93.98" x2="210.82" y2="93.98" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<wire x1="210.82" y1="93.98" x2="210.82" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<junction x="210.82" y="83.82" grouprefs="BAT_CHARGING"/>
+<wire x1="220.98" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="210.82" y1="99.06" x2="210.82" y2="88.9" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<junction x="210.82" y="88.9" grouprefs="BAT_CHARGING"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<junction x="198.12" y="78.74" grouprefs="BAT_CHARGING"/>
+<wire x1="200.66" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<junction x="198.12" y="83.82" grouprefs="BAT_CHARGING"/>
 </segment>
 </net>
 <net name="IN+" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="96.52" x2="198.12" y2="99.06" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="198.12" y="99.06" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="198.12" y1="101.6" x2="198.12" y2="104.14" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="198.12" y="104.14" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="4"/>
@@ -11432,16 +11437,18 @@ Source: www.kingbright.com</description>
 <net name="IN-" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="68.58" x2="198.12" y2="58.42" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="198.12" y="58.42" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="198.12" y1="73.66" x2="198.12" y2="60.96" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="198.12" y="60.96" size="1.778" layer="95" rot="R270" xref="yes" grouprefs="BAT_CHARGING"/>
+<pinref part="SJ4" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND"/>
-<wire x1="246.38" y1="68.58" x2="246.38" y2="58.42" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="246.38" y="58.42" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
-<wire x1="246.38" y1="58.42" x2="254" y2="58.42" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="246.38" y1="73.66" x2="246.38" y2="63.5" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="246.38" y="63.5" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="246.38" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="254" y1="58.42" x2="254" y2="60.96" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="254" y1="63.5" x2="254" y2="66.04" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="GND"/>
@@ -11481,8 +11488,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="TEMP"/>
-<wire x1="246.38" y1="78.74" x2="248.92" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="248.92" y="78.74" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="246.38" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="248.92" y="83.82" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
@@ -11493,16 +11500,16 @@ Source: www.kingbright.com</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="254" y1="71.12" x2="254" y2="73.66" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="254" y1="76.2" x2="254" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 <pinref part="IC3" gate="G$1" pin="PROG"/>
-<wire x1="254" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="254" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 </segment>
 </net>
 <net name="BAT+" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="BAT"/>
-<wire x1="246.38" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="248.92" y="83.82" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="246.38" y1="88.9" x2="248.92" y2="88.9" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="248.92" y="88.9" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -11882,19 +11889,19 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="228.6" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<wire x1="228.6" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
 </segment>
 </net>
 <net name="CHRG" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="243.84" y="93.98" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="241.3" y1="99.06" x2="243.84" y2="99.06" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="243.84" y="99.06" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="CHRG"/>
-<wire x1="215.9" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="213.36" y="73.66" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="215.9" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="213.36" y="78.74" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="D6"/>
@@ -11905,8 +11912,8 @@ Source: www.kingbright.com</description>
 <net name="STDBY" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="STDBY"/>
-<wire x1="215.9" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="213.36" y="68.58" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="215.9" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="213.36" y="73.66" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="D7"/>
@@ -11975,13 +11982,18 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="CE"/>
-<wire x1="210.82" y1="78.74" x2="215.9" y2="78.74" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
-<label x="213.36" y="78.74" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="BAT_CHARGING"/>
+<wire x1="210.82" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="213.36" y="83.82" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="CD"/>
 <wire x1="15.24" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91" grouprefs="PROGRAMMING"/>
 <label x="12.7" y="17.78" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="PROGRAMMING"/>
+</segment>
+<segment>
+<pinref part="SJ4" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91" grouprefs="BAT_CHARGING"/>
+<label x="226.06" y="60.96" size="1.778" layer="95" xref="yes" grouprefs="BAT_CHARGING"/>
 </segment>
 </net>
 <net name="SIG0" class="0">
