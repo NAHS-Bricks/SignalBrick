@@ -4,6 +4,7 @@ import os
 import hashlib
 from datetime import datetime
 import zipfile
+from glob import glob
 
 
 @task(name="build-firmware")
@@ -62,3 +63,41 @@ def build_firmware(c):
     print('')
     for g in generated:
         print('Generated: ' + g)
+
+
+@task(name="ibom")
+def ibom(c):
+    jsons = list()
+    for d in glob('eagle_*'):
+        for j in glob(os.path.join(d, '*.json')):
+            jsons.append(j)
+    if len(jsons) == 0:
+        print('No json found to work with')
+        return
+    selected_json = ''
+    if len(jsons) == 1:
+        selected_json = jsons[0]
+    else:
+        for j in jsons:
+            print(f"{jsons.index(j)} {j}")
+        i = int(input("\nSelect json to work with: "))
+        selected_json = jsons[i]
+
+    name = selected_json.split('/', 1)[0].replace('eagle_', '')
+    version = selected_json.split('/')[-1].replace('.json', '').split('_')[0]
+    rev = selected_json.split('/')[-1].replace('.json', '').split('_')[-1]
+    rev = (rev.replace('r', '') if rev.startswith('r') else 'Final')
+    title = f"{name} {version}"
+
+    selected_content = json.loads(open(selected_json, 'r').read())
+    selected_content['pcbdata']['metadata']['title'] = title
+    selected_content['pcbdata']['metadata']['revision'] = rev
+    selected_content['pcbdata']['metadata']['company'] = "NiJO's"
+    open(selected_json, 'w').write(json.dumps(selected_content, indent=4))
+
+    order = 'R,C,LED,VR,IC,S,J'
+    blacklist = '"SJ*,JP*,UPDI"'
+    c.run(f"ibom --highlight-pin1 --layer-view F --sort-order {order} --blacklist {blacklist} --dest-dir ../ibom --name-format {selected_json.split('/')[-1].replace('.json', '')} {selected_json}")  # --no-browser
+
+    if input("\nDelete json? (Y/n): ") in ['y', '']:
+        c.run(f"rm {selected_json}")
