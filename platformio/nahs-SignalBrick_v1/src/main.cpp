@@ -1,9 +1,9 @@
 #include <Arduino.h>
-#include <nahs-Brick-OS.h>
+#include <nahs-Bricks-OS.h>
 // include all features of brick
-#include <nahs-Brick-Feature-Signal.h>
-#include <nahs-Brick-Feature-Bat.h>
-#include <nahs-Brick-Feature-Sleep.h>
+#include <nahs-Bricks-Feature-Signal.h>
+#include <nahs-Bricks-Feature-Bat.h>
+#include <nahs-Bricks-Feature-Sleep.h>
 
 void setup() {
   // Now register all the features under All
@@ -13,7 +13,7 @@ void setup() {
   FeatureAll.registerFeature(&FeatureSleep);
 
   // Set Brick-Specific stuff
-  BrickOS.setSetupPin(D5);
+  BricksOS.setSetupPin(D5);
   FeatureAll.setBrickType(3);
 
   // Set Brick-Specific (feature related) stuff
@@ -25,7 +25,7 @@ void setup() {
   FeatureBat.setPins(D6, D7, A0);
 
   // Finally hand over to BrickOS
-  BrickOS.handover();
+  BricksOS.handover();
 }
 
 void loop() {
